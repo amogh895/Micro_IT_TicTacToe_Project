@@ -4,12 +4,13 @@ A simple console-based Tic Tac Toe game implemented in Python. Two players (X an
 
 # How to Play:
 The board is represented by numbers 0–8 as shown below:
-
-0 | 1 | 2
---|---|---
-3 | 4 | 5
---|---|---
-6 | 7 | 8
+|---|---|---|
+| 0 | 1 | 2 |
+|---|---|---|
+| 3 | 4 | 5 |
+|---|---|---|
+| 6 | 7 | 8 |
+|---|---|---|
 
 Each player enters a number to mark that position with their symbol (X or O).
 A move is invalid if the position is already occupied.
@@ -36,33 +37,8 @@ wins = [[0,1,2], [3,4,5], [6,7,8],
 4. Run the file:
 python tic_tac_toe.py
 
-# Sample Output:
-
-Welcome to Tic Tac Toe Game
-0 | 1 | 2
---|---|---
-3 | 4 | 5
---|---|---
-6 | 7 | 8
-X's Chance
-Please enter a value: 0
-X | 1 | 2 
---|---|---
-3 | 4 | 5
---|---|---
-6 | 7 | 8
-O's Chance
-Please enter a value: 2
-X | 1 | O 
---|---|---
-3 | 4 | 5
---|---|---
-6 | 7 | 8
-
-continues.....
-
 # Features:
 1. Turn-based 2-player gameplay
 2. Input validation
 3. Win and draw detection
-4. Simple and readable code
+4. Simple and readable code.
