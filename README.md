@@ -3,12 +3,7 @@
 A simple console-based Tic Tac Toe game implemented in Python. Two players (X and O) take turns to place their mark on a 3x3 grid. The game ends when one player wins or the board is full (resulting in a draw).
 
 # How to Play:
-The board is represented by numbers 0–8 as shown below:
-
-Welcome to Tic Tac Toe Game
-
-<pre> ``` 0 | 1 | 2 --|---|--- 3 | 4 | 5 --|---|--- 6 | 7 | 8 ``` </pre>
-
+The board is represented by numbers 0–8.
 Each player enters a number to mark that position with their symbol (X or O).
 A move is invalid if the position is already occupied.
 
